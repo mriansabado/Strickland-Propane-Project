@@ -8,17 +8,43 @@
     text-align: center;
 }
 
-#hankHill {
-    height: 200px;
-    width: 200px;
+.hero-box {
+    height: auto;
+    width: auto;
+    background-color: orchid;
+    display: flex;
+    justify-content: center;
 }
 
-#strickland {
-    height: 200px;
-    width: 200px;
+
+.employee-photo-box{
+    height: auto;
+    width: auto;
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#stricklandLogo {
-    height: 200px;
-    width: 200px;
+.hankHill {
+    height: 300px;
+    width: 300px;
+    justify-content: flex-start;
+    
+    
+}
+
+ .strickland {
+    height: 300px;
+    width: 300px;
+    justify-content: flex-end;
+ 
+}
+
+.strickland-logo {
+    height: 300px;
+    width: 500px;
+}
+
+figcaption {
+    text-align: center;
 }
