@@ -1,6 +1,36 @@
 
+nav {
+    position: sticky;
+}
+
+.navbar-list {
+    font-size: 25px;
+    height: 100px;
+    width: auto;
+    background-color: pink;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav-item{
+    background-color: lightblue;
+    list-style-type: none;
+    text-indent: 20px;
+    
+
+  
+}
+
+.thumb-logo {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    
+}
 
 #logo {
+    font-size: 50px;
     text-align: center;
 }
 
