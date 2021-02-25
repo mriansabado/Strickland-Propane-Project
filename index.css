@@ -1,5 +1,5 @@
 
-
+/* nav section */
 .nav-wrap {
     
  }
@@ -9,7 +9,6 @@
     grid-template-columns: repeat(8, 1fr);
 
 }
-
 
 .nav-item{
 
@@ -55,7 +54,6 @@ li a {
     
 }
 
-
 h1 {
     font-size: 50px;
     text-align: center;
@@ -64,9 +62,29 @@ h1 {
 
 
 
+/* Hero Image */
+
+.hero-image {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
 
 
+/* Buck Section */
+.buck-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    background-color: red;
+}
 
+.buck-photo {
+    grid-column-start: 2;
+    justify-content: center;
+}
 
 
 
