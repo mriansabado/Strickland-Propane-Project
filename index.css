@@ -1,7 +1,7 @@
 
 /* nav section */
 .nav-wrap {
-    
+    background: #ddeaff ;
  }
 
 .nav-list {
@@ -11,20 +11,23 @@
 }
 
 .nav-item{
-
 display: inline;
 align-items: center;
 padding: 10px;
-font-size: 20px;
+font-size: 30px;
 margin-top: 20px;
 
 }
 
+
+
 .navContact {
     grid-column-start: 8;
-   }
+}
+
 .navAbout {    grid-column-start: 6;
  }
+
  .navGrills {
      grid-column-start: 5;
  }
@@ -54,23 +57,39 @@ li a {
     
 }
 
-h1 {
-    font-size: 50px;
-    text-align: center;
-}
-
 
 
 
 /* Hero Image */
 
-.hero-image {
+.hero-section-wrap {
+    height: 300px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    background: #ddeaff;
+    min-height: 300px;
     
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
 }
+
+.hero-image {
+    margin: auto;
+    width: 50%;
+    margin-top: -50px;
+    border-radius: 10%;
+    border: black solid;
+    
+}
+
+.hero-text {
+    grid-column: 2;
+    font-size: 50px;
+    color: black;
+}
+
+
 
 
 /* Buck Section */
